@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+html,
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: hsl(244, 38%, 16%);
+    aspect-ratio: 13/5;
+    height: 400px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 540px auto;
+    grid-template-rows: 33% 33% 33%;
+
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2.5em;
+    padding: 40px;
+}
+
+.desc {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 40px;
+    width: 400px;
+}
+
+.stat {
+    color: white;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    grid-column: 1;
+    column-count: 3;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.first {
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.unit {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
+
+.image {
+    grid-row-start: 1;
+    grid-column: span 3;
+    grid-column: 2;
+    position: relative;
+    justify-self: end;
+}
+
+div.image img,
+div.overlay {
+    width: 100%;
+    height: 400px;
+    border-radius: 0px 10px 10px 0;
+}
+
+div.overlay {
+    background: rgba(87, 24, 126, 0.7);
+    position: absolute;
+    top: 0;
+}
+.attribution {
+    text-align: center;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+
+    main {
+        height: 1000px;
+        display: flex;
+    }
+
+    .container {
+        height: 1000px;
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 275px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .desc {
+        font-size: 15px;
+        text-align: center;
+        width: 400px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .stat {
+        column-count: 1;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .first {
+        margin-left: 0px;
+    }
+
+    .image {
+        position: absolute;
+        top: 0;
+    }
+
+    div.image img,
+    div.overlay {
+        height: 256px;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+
+}
+
