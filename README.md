@@ -35,6 +35,7 @@ Users should be able to:
 
 ### Built with
 - Flexbox
+- CSS Grid
 
 ### Useful resources
 
