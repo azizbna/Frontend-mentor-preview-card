@@ -147,14 +147,27 @@ div.overlay {
     font-size: 10px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1100px) {
+    .container{
+        transform: scale(0.8);
+    }
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        transform: scale(0.6);
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
 
     main {
-        height: 1000px;
+        height: 1300px;
         display: flex;
     }
 
     .container {
+        transform: scale(1);
         height: 1000px;
         width: 350px;
         display: flex;
