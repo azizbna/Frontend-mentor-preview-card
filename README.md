@@ -9,6 +9,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
+ - [Built with](#built-with)
  - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -29,6 +30,11 @@ Users should be able to:
 
 - Solution URL: [Solution](https://github.com/azizbna/Frontend-mentor-preview-card)
 - Live Site URL: [Live site](https://azizbna.github.io/Frontend-mentor-preview-card/)
+
+## My process
+
+### Built with
+- Flexbox
 
 ### Useful resources
 
